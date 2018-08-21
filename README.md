@@ -15,4 +15,4 @@ There are two branches
     - Successfully compiles on `npm start` because `node_module/fake-module` is compiled with the presets in the config
 
 # Error
-`master` should successfully compile and run, using the correct `.babelrc` files for the root direction and for `node_modules/fake-module`
+`master` should successfully compile and run, using the correct `.babelrc` files for the root directory and for `node_modules/fake-module`
