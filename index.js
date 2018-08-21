@@ -1,4 +1,9 @@
 require('@babel/register')({
-	ignore: []
+	ignore: [],
+	babelrcRoots: [
+	  ".",
+	  "./node_modules/fake-module",
+	]
 });
+
 require('./caller').default();
